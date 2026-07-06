@@ -1,0 +1,6 @@
+{
+  "name": "Nomadax Apps Hub",
+  "description": "Plataforma interactiva y persuasiva para descubrir la suite de aplicaciones de Nomadax, incluyendo Cerebro Familiar, Nunca Más Mañana, Material Viral y Academia Pets Mastery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
