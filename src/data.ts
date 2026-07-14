@@ -78,44 +78,6 @@ export const APPLICATIONS: Application[] = [
     gradientTo: "to-teal-600"
   },
   {
-    id: "material-viral",
-    name: "Material Viral",
-    tagline: "Domina el algoritmo. Tu arsenal ilimitado para volverte viral hoy",
-    description: "La biblioteca de recursos definitiva para creadores y marcas que buscan multiplicar su visibilidad. Plantillas de alto impacto, fórmulas de guiones magnéticos, disparadores de retención y estrategias para hackear las estadísticas de Instagram Reels, TikTok y YouTube Shorts. Deja de adivinar qué funciona.",
-    url: "https://www.material-viral.com/",
-    priceText: "29€",
-    priceSub: "acceso inmediato ilimitado",
-    priceValue: 29,
-    badge: "Efecto Viral",
-    category: "Marketing",
-    benefits: [
-      "Más de 5,000 plantillas listas para usar en cualquier plataforma o nicho",
-      "Actualizaciones mensuales con las últimas tendencias de audio y transiciones",
-      "Ganchos (hooks) psicológicos de inicio rápido probados en millones de visitas",
-      "Sistemas de retención de audiencia para superar el temido límite de 3 segundos"
-    ],
-    features: [
-      {
-        title: "Ganchos Magnéticos",
-        description: "Abre tus videos con fórmulas de copy diseñadas para detener el scroll.",
-        icon: "Sparkles"
-      },
-      {
-        title: "Plantillas de Edición",
-        description: "Corta y monta videos profesionales en minutos con recursos de alto enganche.",
-        icon: "Video"
-      },
-      {
-        title: "Análisis de Tendencias",
-        description: "Identifica de forma predictiva qué formatos van a explotar en las próximas semanas.",
-        icon: "TrendingUp"
-      }
-    ],
-    accentColor: "violet",
-    gradientFrom: "from-violet-600",
-    gradientTo: "to-purple-600"
-  },
-  {
     id: "pets-mastery",
     name: "Academia Pets Mastery",
     tagline: "Entiende y educa a tu fiel compañero. De obediencia básica a trucos expertos",
@@ -158,7 +120,7 @@ export const APPLICATIONS: Application[] = [
 export const FAQS: FAQItem[] = [
   {
     question: "¿Las aplicaciones son de pago único o suscripción?",
-    answer: "Tres de nuestras aplicaciones (Cerebro Familiar, Nunca Más Mañana y Material Viral) se ofrecen bajo un modelo de pago único. Esto significa que pagas una sola vez y tienes acceso ilimitado para siempre, incluyendo todas las actualizaciones futuras, sin suscripciones mensuales ocultas. Por otro lado, la Academia Pets Mastery es completamente gratuita."
+    answer: "Nuestras aplicaciones de pago (Cerebro Familiar y Nunca Más Mañana) se ofrecen bajo un modelo de pago único. Esto significa que pagas una sola vez y tienes acceso ilimitado para siempre, incluyendo todas las actualizaciones futuras, sin suscripciones mensuales ocultas. Por otro lado, la Academia Pets Mastery es completamente gratuita."
   },
   {
     question: "¿Cómo accedo a las aplicaciones tras la compra?",

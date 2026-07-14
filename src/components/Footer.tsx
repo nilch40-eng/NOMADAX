@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             
             <p className="text-xs text-slate-400 max-w-sm leading-relaxed">
-              La suite de herramientas y aplicaciones digitales de élite de Nomadax. Diseñadas meticulosamente para optimizar la organización familiar, destruir la procrastinación, maximizar el alcance en redes sociales y adiestrar a tus mascotas con amor.
+              La suite de herramientas y aplicaciones digitales de élite de Nomadax. Diseñadas meticulosamente para optimizar la organización familiar, destruir la procrastinación y adiestrar a tus mascotas con amor.
             </p>
           </div>
 
@@ -49,12 +49,6 @@ export default function Footer() {
                 className="text-slate-400 hover:text-white transition-colors cursor-pointer"
               >
                 ⚡ Nunca Más Mañana
-              </button>
-              <button
-                onClick={() => handleScrollTo("material-viral")}
-                className="text-slate-400 hover:text-white transition-colors cursor-pointer"
-              >
-                🚀 Material Viral
               </button>
               <button
                 onClick={() => handleScrollTo("pets-mastery")}

@@ -2,7 +2,6 @@ import { Application } from "../types";
 import {
   CerebroFamiliarWidget,
   NuncaMasMananaWidget,
-  MaterialViralWidget,
   PetsMasteryWidget,
 } from "./InteractiveShowcase";
 import {
@@ -64,11 +63,6 @@ export default function AppBlock({ app, index }: AppBlockProps) {
       author: "Carlos T.",
       role: "Desarrollador Freelance"
     },
-    "material-viral": {
-      quote: "Subí de 300 a 45,000 seguidores en menos de un mes usando los ganchos iniciales. ¡La mejor inversión que he hecho en mi negocio!",
-      author: "Laura M.",
-      role: "Creadora de Contenido & Coach"
-    },
     "pets-mastery": {
       quote: "Bobby mordía todo en casa. Gracias a las guías gratuitas de refuerzo positivo, ahora se sienta, espera y camina sin dar tirones.",
       author: "Andrés V.",
@@ -85,8 +79,6 @@ export default function AppBlock({ app, index }: AppBlockProps) {
         return <CerebroFamiliarWidget />;
       case "nunca-mas-manana":
         return <NuncaMasMananaWidget />;
-      case "material-viral":
-        return <MaterialViralWidget />;
       case "pets-mastery":
         return <PetsMasteryWidget />;
       default:

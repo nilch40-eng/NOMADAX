@@ -65,12 +65,6 @@ export default function Navbar() {
               Nunca Más Mañana
             </button>
             <button
-              onClick={() => handleScrollTo("material-viral")}
-              className="text-xs font-semibold text-slate-300 hover:text-white transition-colors cursor-pointer"
-            >
-              Material Viral
-            </button>
-            <button
               onClick={() => handleScrollTo("pets-mastery")}
               className="text-xs font-semibold text-slate-300 hover:text-white transition-colors cursor-pointer"
             >
@@ -115,12 +109,6 @@ export default function Navbar() {
               className="text-sm font-semibold text-slate-300 hover:text-white text-left py-1.5 border-b border-slate-900"
             >
               🔥 Nunca Más Mañana
-            </button>
-            <button
-              onClick={() => handleScrollTo("material-viral")}
-              className="text-sm font-semibold text-slate-300 hover:text-white text-left py-1.5 border-b border-slate-900"
-            >
-              ⚡ Material Viral
             </button>
             <button
               onClick={() => handleScrollTo("pets-mastery")}

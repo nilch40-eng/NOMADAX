@@ -28,17 +28,6 @@ export default function Hero() {
       colorClass: "bg-emerald-600 hover:bg-emerald-500"
     },
     {
-      id: "viral",
-      label: "🚀 Alcance en Redes",
-      desc: "Quiero ganchos psicológicos y plantillas para volverme viral",
-      targetId: "material-viral",
-      appName: "Material Viral",
-      appDesc: "Biblioteca masiva de recursos y disparadores psicológicos para reventar las métricas de TikTok, Reels y Shorts.",
-      accent: "text-violet-400 bg-violet-950/40 border-violet-900/60",
-      btnText: "Ver Material Viral ➔",
-      colorClass: "bg-violet-600 hover:bg-violet-500"
-    },
-    {
       id: "mascotas",
       label: "🐶 Adiestramiento Canino",
       desc: "Quiero entrenar y educar a mi mascota con amor",
@@ -88,7 +77,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Seleccionamos las mejores herramientas para optimizar tu productividad, familia y habilidades creativas. Consigue organización absoluta en casa, destruye la procrastinación, multiplica tu impacto viral en redes y adiestra a tu mascota con amor.
+              Seleccionamos las mejores herramientas para optimizar tu productividad, familia y habilidades creativas. Consigue organización absoluta en casa, destruye la procrastinación y adiestra a tu mascota con amor.
             </p>
 
             {/* Micro value badges */}

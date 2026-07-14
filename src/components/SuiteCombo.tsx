@@ -5,13 +5,11 @@ export default function SuiteCombo() {
   const [selectedApps, setSelectedApps] = useState<Record<string, boolean>>({
     "cerebro-familiar": true,
     "nunca-mas-manana": true,
-    "material-viral": true,
   });
 
   const apps = [
     { id: "cerebro-familiar", name: "Cerebro Familiar", price: 39, desc: "Organizador de hogar inteligente", url: "https://familia-3b89d.web.app" },
     { id: "nunca-mas-manana", name: "Nunca Más Mañana", price: 19, desc: "Cura anti-procrastinación", url: "https://nunca-mas-manana-app.web.app/" },
-    { id: "material-viral", name: "Material Viral", price: 29, desc: "Biblioteca y ganchos de redes", url: "https://www.material-viral.com/" },
   ];
 
   const toggleApp = (id: string) => {
