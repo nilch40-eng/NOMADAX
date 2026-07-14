@@ -4,6 +4,8 @@ import AppBlock from "./components/AppBlock";
 import SuiteCombo from "./components/SuiteCombo";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import AdBanner728 from "./components/AdBanner728";
+import AdContainerNative from "./components/AdContainerNative";
 import { APPLICATIONS } from "./data";
 
 export default function App() {
@@ -14,6 +16,9 @@ export default function App() {
 
       {/* Hero section with dynamic quiz application recommendation */}
       <Hero />
+
+      {/* Premium Banner Ad Placement */}
+      <AdBanner728 />
 
       {/* Main Apps blocks with interactive live-simulation CSS mockups */}
       <main className="relative">
@@ -26,6 +31,9 @@ export default function App() {
 
       {/* Suite Combination pricing calculator */}
       <SuiteCombo />
+
+      {/* Native Sponsored Ad Placement */}
+      <AdContainerNative />
 
       {/* Common FAQ collapsible panel */}
       <FAQ />
