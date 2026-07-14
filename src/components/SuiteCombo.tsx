@@ -9,8 +9,8 @@ export default function SuiteCombo() {
   });
 
   const apps = [
-    { id: "cerebro-familiar", name: "Cerebro Familiar", price: 39, desc: "Organizador de hogar inteligente", url: "https://cerebro-digital-familiar.vercel.app/" },
-    { id: "nunca-mas-manana", name: "Nunca Más Mañana", price: 19, desc: "Cura anti-procrastinación", url: "https://www.nomadax.site/" },
+    { id: "cerebro-familiar", name: "Cerebro Familiar", price: 39, desc: "Organizador de hogar inteligente", url: "https://familia-3b89d.web.app" },
+    { id: "nunca-mas-manana", name: "Nunca Más Mañana", price: 19, desc: "Cura anti-procrastinación", url: "https://nunca-mas-manana-app.web.app/" },
     { id: "material-viral", name: "Material Viral", price: 29, desc: "Biblioteca y ganchos de redes", url: "https://www.material-viral.com/" },
   ];
 
